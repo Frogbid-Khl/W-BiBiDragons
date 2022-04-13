@@ -3792,4 +3792,43 @@ body {
     transform: translateX(0)
 }
 
+#slider-container {
+    height: 250px;
+    width: 100%;
+    max-width: 1000px;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    overflow: hidden;
+    box-shadow: 0 0 15px #888;
+
+}
+
+#slider-scroller {
+    top: 0;
+    left: 0;
+    width: calc(260px * 6);
+    transition: all 1s ease;
+}
+
+.slider-item {
+    width: 220px;
+    height: 210px;
+    display: inline-block;
+    margin: 20px;
+    position: relative;
+}
+
+.slider-item img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    max-width: 200px;
+    max-height: 150px;
+    z-index: 999;
+}
+
 /*# sourceMappingURL=main.690a8bfd.chunk.css.map */
