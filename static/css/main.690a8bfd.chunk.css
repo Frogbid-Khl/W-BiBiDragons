@@ -1007,7 +1007,7 @@ video {
     flex-wrap: wrap;
     position: absolute;
     z-index: 99;
-    bottom: 11%;
+    bottom: 5%;
     left: 0;
     right: 0;
     margin: auto
@@ -1719,7 +1719,8 @@ a:hover {
     font-size: 50px;
     line-height: 58px;
     border-radius: 12px;
-    margin: 0 auto
+    margin: 0 auto;
+    color: #fff;
 }
 
 @media (max-width: 1024px) {
@@ -1981,7 +1982,8 @@ a:hover {
     font-size: 50px;
     line-height: 58px;
     border-radius: 12px;
-    z-index: 1
+    z-index: 1;
+    color: #fff;
 }
 
 @media (max-width: 768px) {
@@ -2306,7 +2308,8 @@ a:hover {
     font-size: 50px;
     line-height: 58px;
     margin: 100px auto;
-    text-transform: capitalize
+    text-transform: capitalize;
+    color: #fff;
 }
 
 @media (max-width: 1024px) {
@@ -2373,7 +2376,8 @@ a:hover {
     letter-spacing: 1px;
     padding: 20px 15px;
     text-align: left;
-    word-break: break-all
+    word-break: break-all;
+    color: #fff;
 }
 
 @media (max-width: 1024px) {
@@ -2662,7 +2666,8 @@ a:hover {
     line-height: 58px;
     z-index: 1;
     border-radius: 12px;
-    text-transform: capitalize
+    text-transform: capitalize;
+    color: #ffffff;
 }
 
 .ScaryMeter_titlePadding__1Oi2A {
@@ -2875,7 +2880,8 @@ a:hover {
     font-size: 13px;
     line-height: 30px;
     letter-spacing: 2px;
-    margin: auto auto 50px
+    margin: auto auto 50px;
+    color: #ffffff;
 }
 
 @media (max-width: 768px) {
@@ -2905,7 +2911,8 @@ a:hover {
     margin-bottom: 10px;
     line-height: 30px;
     font-size: 13px;
-    letter-spacing: 1px
+    letter-spacing: 1px;
+    color: #fff;
 }
 
 .ScaryMeter_benefits__1tQQS li:before {
@@ -3358,7 +3365,8 @@ video {
 
 .Team_name__CLtUB, .Team_title__2R97J {
     font-family: "TL", sans-serif;
-    letter-spacing: 4px
+    letter-spacing: 4px;
+    color: #fff;
 }
 
 .Team_title__2R97J {
@@ -3371,7 +3379,8 @@ video {
     font-size: 36px;
     line-height: 58px;
     border-radius: 12px;
-    text-transform: capitalize
+    text-transform: capitalize;
+    color: #fff;
 }
 
 @media (max-width: 1024px) {
@@ -3393,7 +3402,8 @@ video {
     font-size: 13px;
     letter-spacing: 1px;
     line-height: 20px;
-    text-align: left
+    text-align: left;
+    color: #fff;
 }
 
 .Team_subtitle__zTc25 {
