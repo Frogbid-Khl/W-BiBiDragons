@@ -3840,5 +3840,10 @@ body {
     max-height: 150px;
     z-index: 999;
 }
+.background{
+    background-image: url("../media/banner.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
 
 /*# sourceMappingURL=main.690a8bfd.chunk.css.map */
