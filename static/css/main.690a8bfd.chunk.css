@@ -57,8 +57,8 @@
 }
 
 .Footer_footer__3iv-3 {
-    background: linear-gradient(0deg, #300711 79.45%, rgba(35, 10, 16, 0) 113.22%);
-    background-color: rgba(0, 0, 0, .8);
+    background-image: linear-gradient(34deg, #774b1a, #f5d98f, #9b733f);
+    background-color: rgb(236 180 10);
     background-size: 100%;
     position: relative
 }
@@ -69,8 +69,8 @@
 }
 
 .Footer_container__31MFV {
-    padding-top: 96px;
-    padding-bottom: 17px;
+    padding-top: 30px;
+    padding-bottom: 20px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -255,8 +255,11 @@
     text-decoration: none;
     cursor: pointer;
     text-transform: uppercase;
-    background-image: linear-gradient(90deg, #e52d27 0, #b31217 51%, #e52d27);
-    box-shadow: 0 8px 0 #5b050d, 0 10px 15px rgba(0, 0, 0, .35);
+    background-image: linear-gradient(34deg, #774b1a, #f5d98f, #9b733f);
+    box-shadow: 5px;
+    /* box-shadow: 2px 5px #664f24b0; */
+    -webkit-box-shadow: 0px 10px 13px -7px #000000, 0px 5px 26px 0px rgb(190 133 40 / 27%);
+    box-shadow: 0px 10px 13px -7px #000000, 0px 5px 26px 0px rgb(255 179 0);
     transition: #a6a421 .2s ease-in-out
 }
 
@@ -287,11 +290,11 @@
 }
 
 .Button_button__1-zFo.Button_insideShadow__2YZD4 {
-    box-shadow: inset 0 0 7px .5px #ff1616
+    box-shadow: inset 0 0 7px .5px #eac549
 }
 
 .Button_button__1-zFo:hover {
-    background-color: rgba(230, 30, 10, .6);
+    background-color: rgba(219, 173, 25, .6);
     animation: Button_burn__2uyV4 1s ease-out forwards
 }
 
@@ -328,7 +331,7 @@
     0% {
         color: #ff826e;
         background: #ffd228;
-        box-shadow: 0 0 5px 0 #c8000a, 0 0 5px 0 rgba(230, 30, 10, .8), 0 0 5px 0 rgba(230, 230, 10, .6)
+        box-shadow: 0 0 5px 0 #ffc200, 0 0 5px 0 rgb(253, 209, 40), 0 0 5px 0 rgba(230, 230, 10, .6)
     }
     to {
         color: #000;
@@ -893,13 +896,6 @@
     }
 }
 
-video {
-    width: 100%;
-    height: 100vh;
-    position: fixed;
-    top: -100px;
-    z-index: -1
-}
 
 @media (max-width: 1024px) {
     video {
@@ -923,7 +919,6 @@ video {
     height: 330px;
     z-index: 0;
     bottom: 0;
-    background-image: url(/static/media/bg_upside.19eeee7c.png)
 }
 
 @media (max-width: 768px) {
@@ -955,7 +950,7 @@ video {
     z-index: 1;
     left: 0;
     right: 0;
-    bottom: 25%;
+    top: 20%;
     padding-left: 10px
 }
 
@@ -983,13 +978,13 @@ video {
     z-index: 1;
     left: 0;
     right: 0;
-    bottom: 20%
+    top: 30%
 }
 
 @media (max-width: 1024px) {
     .Header_bannerWrapper__3FaCl .Header_overview__3sAoG {
-        width: 90%;
-        bottom: 10%
+        width: 50%;
+        top: 35%
     }
 }
 
@@ -1007,7 +1002,7 @@ video {
     flex-wrap: wrap;
     position: absolute;
     z-index: 99;
-    bottom: 5%;
+    top: 45%;
     left: 0;
     right: 0;
     margin: auto
@@ -1026,7 +1021,8 @@ video {
     line-height: 30px;
     font-family: "TL", sans-serif;
     letter-spacing: .3em;
-    margin: 5px
+    margin: 5px;
+    color: #000;
 }
 
 .Header_bannerWrapper__3FaCl .Header_bannerButton2__U3nBG {
@@ -1688,8 +1684,7 @@ a:hover {
 }
 
 .Community_section__1siyS {
-    padding-top: 121px;
-    background: #000
+    padding-top: 40px;
 }
 
 @media (max-width: 768px) {
@@ -1716,16 +1711,18 @@ a:hover {
     width: -moz-fit-content;
     width: fit-content;
     font-family: "TL", sans-serif;
-    font-size: 50px;
+    font-size: 2.5rem;
     line-height: 58px;
     border-radius: 12px;
     margin: 0 auto;
-    color: #fff;
+    color: #ffb60d;
+    margin-bottom: 30px;
+}
 }
 
 @media (max-width: 1024px) {
     .Community_title__3Cfe0 {
-        font-size: 50px;
+        font-size: 36px;
         text-align: center
     }
 }
@@ -1763,8 +1760,8 @@ a:hover {
 .Community_box__3Q2PJ {
     display: flex;
     width: 65%;
-    background-color: #3f0d12;
-    background-image: linear-gradient(315deg, #3f0d12, #a71d31 74%);
+    background-color: #fcc201;
+    background-image: linear-gradient(314deg, #a76d02 , #fcec7b, #e0a00b , #febe20, #fcec7b, #a56700 );
     padding: 15px 10px;
     border-radius: 10px;
     margin: 50px auto
@@ -1838,7 +1835,6 @@ a:hover {
 
 @media (max-width: 1024px) {
     .Community_socials__27oFa {
-        display: none
     }
 }
 
@@ -1923,9 +1919,7 @@ a:hover {
 }
 
 .FAQ_section__3NV10 {
-    background: url(/static/media/roadmap.ad17d6d5.png) center 0 no-repeat, #000;
     background-size: 100%;
-    background-color: rgba(0, 0, 0, .8)
 }
 
 .FAQ_section_inner__20xUy {
@@ -1979,11 +1973,12 @@ a:hover {
     width: -moz-fit-content;
     width: fit-content;
     font-family: "TL", sans-serif;
-    font-size: 50px;
+    font-size: 2.5rem;
     line-height: 58px;
     border-radius: 12px;
     z-index: 1;
-    color: #fff;
+    color: #ffb60d;
+    margin-bottom: 30px;
 }
 
 @media (max-width: 768px) {
@@ -2281,9 +2276,6 @@ a:hover {
     margin: 0 auto;
     padding: 50px 15px;
     text-align: center;
-    background: url(/static/media/roadmap.ad17d6d5.png), #000;
-    background-position: top;
-    background-size: 100% 60%
 }
 
 @media (max-width: 1024px) {
@@ -2305,20 +2297,20 @@ a:hover {
     width: fit-content;
     letter-spacing: 4px;
     font-family: "TL";
-    font-size: 50px;
+    font-size: 2.5rem;
     line-height: 58px;
-    margin: 100px auto;
+    margin: 0 auto;
     text-transform: capitalize;
-    color: #fff;
+    color: #ffb60d;
+    margin-bottom: 45px;
 }
 
 @media (max-width: 1024px) {
     .Roadmap_title__2IKuB {
         margin-top: 60px;
-        margin-bottom: 20px;
-        font-size: 50px;
-        font-size: 25px;
-        line-height: 29px
+        margin-bottom: 60px;
+        font-size: 5rem;
+        line-height: 45px;
     }
 }
 
@@ -2352,27 +2344,31 @@ a:hover {
 }
 
 .Roadmap_stage__BEKU_ .Roadmap_percentage__15hfd {
-    padding: 15px;
+    padding: 23px;
     min-width: 180px;
     box-sizing: border-box;
-    font-size: 14px;
-    line-height: 18px;
-    letter-spacing: 1px;
+    font-size: 1.5rem;
+    line-height: 25px;
+    letter-spacing: 2px;
     background-color: #f7b42c;
-    background-image: linear-gradient(315deg, #880b10, #fc575e 74%)
+    background-image: linear-gradient(34deg, #774b1a, #f5d98f, #9b733f);
+    box-shadow: 5px;
+    /* box-shadow: 2px 5px #664f24b0; */
+    -webkit-box-shadow: 0px 10px 13px -7px #000000, 0px 5px 26px 0px rgb(190 133 40 / 27%);
+    box-shadow: 0px 10px 13px -7px #000000, 0px 5px 26px 0px rgb(255 179 0);
 }
 
 @media (max-width: 1024px) {
     .Roadmap_stage__BEKU_ .Roadmap_percentage__15hfd {
         width: 100%;
         margin: auto;
-        font-size: 14px
+        font-size: 2.5rem;
     }
 }
 
 .Roadmap_stage__BEKU_ .Roadmap_description__3lSQp {
-    font-size: 13px;
-    line-height: 20px;
+    font-size: 1rem;
+    line-height: 35px;
     letter-spacing: 1px;
     padding: 20px 15px;
     text-align: left;
@@ -2385,9 +2381,9 @@ a:hover {
         width: 95%;
         margin: auto;
         word-break: break-all;
-        font-size: 14px;
+        font-size: 1.8rem;
         padding: 20px 5px;
-        text-align: center
+        text-align: left;
     }
 }
 
@@ -2403,13 +2399,16 @@ a:hover {
 .Roadmap_stage__BEKU_.Roadmap_oddStage__1Zyve .Roadmap_percentage__15hfd {
     box-sizing: border-box;
     background-color: #f7b42c;
-    background-image: linear-gradient(315deg, #fc575e, #880b10 74%);
+    background-image: linear-gradient(34deg, #774b1a, #f5d98f, #9b733f);
+    box-shadow: 5px;
+    /* box-shadow: 2px 5px #664f24b0; */
+    -webkit-box-shadow: 0px 10px 13px -7px #000000, 0px 5px 26px 0px rgb(190 133 40 / 27%);
+    box-shadow: 0px 10px 13px -7px #000000, 0px 5px 26px 0px rgb(255 179 0);
     min-width: 180px
 }
 
 .Roadmap_stage__BEKU_.Roadmap_oddStage__1Zyve .Roadmap_description__3lSQp {
-    font-family: "MSR", sans-serif;
-    font-size: 14px;
+    font-size: 1rem;
     text-align: left;
     word-break: break-all
 }
@@ -2419,7 +2418,7 @@ a:hover {
         width: 95%;
         margin: auto;
         word-break: break-all;
-        font-size: 14px;
+        font-size: 1.8rem;
         padding: 20px 5px;
         text-align: left
     }
@@ -2613,8 +2612,6 @@ a:hover {
 
 .ScaryMeter_section__3pQil {
     padding: 15px 0;
-    background: url(/static/media/roadmap.ad17d6d5.png) center 0 no-repeat, #000;
-    background-size: cover;
     position: relative;
     font-family: ‘Noto Sans TC’, sans-serif
 }
@@ -2632,7 +2629,7 @@ a:hover {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    margin: 40px 0;
+    margin: 0 0;
     position: relative;
     z-index: 1
 }
@@ -2646,7 +2643,8 @@ a:hover {
 .ScaryMeter_top__17yl3 {
     margin-top: 40px;
     flex-direction: column;
-    align-items: center
+    align-items: center;
+    margin-bottom: 56px;
 }
 
 .ScaryMeter_top__17yl3 .ScaryMeter_pic__13wFK {
@@ -2661,13 +2659,14 @@ a:hover {
     width: -moz-fit-content;
     width: fit-content;
     font-family: "TL";
-    font-size: 36px;
+    font-size: 2.5rem;
     letter-spacing: 4px;
     line-height: 58px;
     z-index: 1;
     border-radius: 12px;
     text-transform: capitalize;
-    color: #ffffff;
+    color: #ffb60d;
+    margin-bottom: 30px;
 }
 
 .ScaryMeter_titlePadding__1Oi2A {
@@ -2676,7 +2675,7 @@ a:hover {
 
 @media (max-width: 1024px) {
     .ScaryMeter_title__aDC-x {
-        font-size: 50px
+        font-size: 5rem;
     }
 }
 
@@ -2705,7 +2704,8 @@ a:hover {
 }
 
 .ScaryMeter_levels__2oVIx {
-    display: flex
+    display: flex;
+    width: 80%;
 }
 
 @media (max-width: 768px) {
@@ -2724,12 +2724,15 @@ a:hover {
 
 .ScaryMeter_level__28hJf + .ScaryMeter_level__28hJf {
     border: 0;
-    background: #e52d27;
-    box-shadow: inset 0 0 0 0 #ff1616;
-    border-left: 1px solid #7c1b3d;
-    height: 40px;
+    background: #ffb60d;
+    box-shadow: inset 0 0 0 0 #b78628;
+    border-left: 1px solid #000000;
+    height: 60px;
     position: relative;
-    top: 10px
+    top: 10px;
+    color: #000;
+    font-size: 1.8rem;
+    font-weight: bold;
 }
 
 @media (max-width: 768px) {
@@ -2752,7 +2755,7 @@ a:hover {
 }
 
 .ScaryMeter_description__1J6NZ {
-    background: linear-gradient(180deg, #000, rgba(50, 50, 50, .85));
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0), rgba(50, 50, 50, 0));
     height: auto;
     min-height: 390px;
     max-width: 100%;
@@ -2877,11 +2880,12 @@ a:hover {
 .ScaryMeter_text__1O1-h {
     width: 65%;
     text-align: justify;
-    font-size: 13px;
+    font-size: 1rem;
     line-height: 30px;
     letter-spacing: 2px;
     margin: auto auto 50px;
     color: #ffffff;
+    margin-top: 30px;
 }
 
 @media (max-width: 768px) {
@@ -2895,7 +2899,7 @@ a:hover {
 .ScaryMeter_benefits__1tQQS {
     width: 100%;
     margin: 0 auto;
-    padding: 0;
+    padding: 40px;
     list-style-type: none
 }
 
@@ -2909,8 +2913,8 @@ a:hover {
 .ScaryMeter_benefits__1tQQS li {
     counter-increment: step-counter;
     margin-bottom: 10px;
-    line-height: 30px;
-    font-size: 13px;
+    line-height: 35px;
+    font-size: 1rem;
     letter-spacing: 1px;
     color: #fff;
 }
@@ -2919,17 +2923,16 @@ a:hover {
     content: counter(step-counter);
     margin-right: 5px;
     font-size: 80%;
-    background-color: #ffd654;
+    background-color: #ffb60d;
     color: #666;
     font-weight: 700;
     padding: 5px 8px;
     border-radius: 3px
 }
 
-video {
-    position: absolute;
+.banner_video {
     object-fit: cover;
-    height: 250px;
+    height: 500px;
     z-index: 0;
     top: 0
 }
@@ -3090,7 +3093,6 @@ video {
     top: 100px;
     height: 400px;
     width: 100%;
-    background: url(/static/media/bg2.6c579b6f.png) 50% no-repeat, #000;
     z-index: 2;
     text-align: center;
     background-size: cover;
@@ -3126,8 +3128,6 @@ video {
     position: absolute;
     top: 100px;
     height: 400px;
-    background: url(/static/media/bg2.6c579b6f.png) 50% no-repeat, #000;
-    background-size: cover;
     z-index: 2;
     text-align: center;
     font-size: 16px;
@@ -3303,8 +3303,6 @@ video {
 }
 
 .Team_section__UaFqP {
-    background: #000;
-    background-size: cover;
     padding: 50px
 }
 
@@ -3318,7 +3316,7 @@ video {
 
 .Team_content__11IlQ {
     display: flex;
-    width: 85%;
+    width: 100%;
     margin: 0 auto;
     flex-wrap: wrap;
     justify-content: center;
@@ -3346,7 +3344,8 @@ video {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center
+    align-items: center;
+    padding:25px;
 }
 
 .Team_avatar__143y4 {
@@ -3359,7 +3358,7 @@ video {
 
 .Team_name__CLtUB {
     margin-bottom: 20px;
-    font-size: 28px;
+    font-size: 2.5rem;
     line-height: 32px
 }
 
@@ -3376,16 +3375,23 @@ video {
     width: -webkit-fit-content;
     width: -moz-fit-content;
     width: fit-content;
-    font-size: 36px;
+    font-size: 2.5rem;
     line-height: 58px;
     border-radius: 12px;
     text-transform: capitalize;
-    color: #fff;
+    color: #ffb60d;
+    margin-bottom: 30px;
 }
 
 @media (max-width: 1024px) {
     .Team_title__2R97J {
-        font-size: 50px
+        font-size: 5rem;
+    }
+    .Community_title__3Cfe0{
+        font-size: 5rem;
+    }
+    .FAQ_title__2cpKh{
+        font-size: 5rem;
     }
 }
 
@@ -3399,10 +3405,10 @@ video {
 
 .Team_description__347ql {
     padding: 0 10px;
-    font-size: 13px;
+    font-size: 1rem;
     letter-spacing: 1px;
-    line-height: 20px;
-    text-align: left;
+    line-height: 35px;
+    text-align: center;
     color: #fff;
 }
 
@@ -3536,7 +3542,7 @@ audio, canvas, video {
     display: inline-block;
     *display: inline;
     *zoom: 1;
-    max-width: 100%
+    width: 100%
 }
 
 audio:not([controls]) {
@@ -3840,10 +3846,117 @@ body {
     max-height: 150px;
     z-index: 999;
 }
-.background{
-    background-image: url("../media/banner.png");
-    background-size: cover;
-    background-repeat: no-repeat;
+.icon_image{
+    margin: 15px;
 }
 
-/*# sourceMappingURL=main.690a8bfd.chunk.css.map */
+
+@media screen and (max-width: 1024px) {
+    #first_header{
+        margin-top: -403px;
+    }
+    .ScaryMeter_text__1O1-h{
+        font-size:1.8rem;
+        line-height: 45px;
+    }
+    .ScaryMeter_benefits__1tQQS li{
+        font-size:1.8rem;
+        line-height: 45px;
+    }
+    .Team_description__347ql{
+        font-size:1.8rem;
+        line-height: 45px;
+    }
+    .ScaryMeter_text__1O1-h{
+        width: 90%;
+    }
+}
+@media screen and (max-width: 993px) {
+    #social{
+      margin-right: 220px;
+    }
+}
+
+#nav_image{
+    height: 30px;
+    width: 180px;
+}
+
+@media screen and (max-width: 992px) {
+    #nav_image{
+        height: 60px;
+        width: 400px;
+    }
+    .icon_image{
+        margin-top: 20px;
+        width: 60px;
+    }
+}
+
+
+
+
+
+.instr-wrap {
+    position: relative;
+}
+
+.instr-wrap:after {
+    content: '';
+    position: absolute;
+    bottom: -5rem;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    height: 37rem;
+    width: 100%;
+}
+
+.instr__wrap {
+    overflow: hidden;
+    display: -webkit-box;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    flex-direction: column;
+}
+
+.instr__row {
+    margin-bottom: 18px;
+    height: 235px;
+    width: 10000rem;
+    background-repeat: x-repeat;
+    background-size: contain;
+    -webkit-transform: translateX(0px);
+    -ms-transform: translateX(0px);
+    transform: translateX(0px);
+    -webkit-animation: anim 1000s ease 0s infinite;
+    animation: anim 1000s ease 0s infinite;
+}
+
+.instr__row:nth-child(2n) {
+    position: relative;
+    left: -117px;
+}
+
+@-webkit-keyframes anim {
+    0% {
+        -webkit-transform: translateX(0px);
+        transform: translateX(0px);
+    }
+    100% {
+        -webkit-transform: translateX(-10000rem);
+        transform: translateX(-10000rem);
+    }
+}
+
+@keyframes anim {
+    0% {
+        -webkit-transform: translateX(0px);
+        transform: translateX(0px);
+    }
+    100% {
+        -webkit-transform: translateX(-10000rem);
+        transform: translateX(-10000rem);
+    }
+}
