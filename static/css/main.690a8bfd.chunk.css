@@ -1979,6 +1979,7 @@ a:hover {
     z-index: 1;
     color: #ffb60d;
     margin-bottom: 30px;
+    font-weight: 900;
 }
 
 @media (max-width: 768px) {
@@ -2303,6 +2304,7 @@ a:hover {
     text-transform: capitalize;
     color: #ffb60d;
     margin-bottom: 45px;
+    font-weight: 900;
 }
 
 @media (max-width: 1024px) {
@@ -3382,6 +3384,7 @@ a:hover {
     text-transform: capitalize;
     color: #ffb60d;
     margin-bottom: 30px;
+    font-weight: 900;
 }
 
 @media (max-width: 1024px) {
