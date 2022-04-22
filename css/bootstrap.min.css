@@ -2569,9 +2569,9 @@ a.btn.disabled, fieldset:disabled a.btn {
 }
 
 .btn-secondary {
-    color: #000;
-    background-color: #ffffff;
-    border-color: #ffffff;
+    color: #fff;
+    background-color: #0f7afa;
+    border-color: #0f7afa;
 }
 
 .btn-secondary:hover {
@@ -3165,7 +3165,7 @@ tbody.collapse.show {
     color: #212529;
     text-align: left;
     list-style: none;
-    background-color: #fcc2018c;
+    background-color: #0e79f9cc;
     background-clip: padding-box;
     border: 1px solid rgba(0, 0, 0, .15);
     border-radius: .25rem
@@ -3929,6 +3929,7 @@ tbody.collapse.show {
 .navbar-nav .nav-link {
     padding-right: 0;
     padding-left: 0
+    font-size:20px;
 }
 
 .navbar-nav .dropdown-menu {
