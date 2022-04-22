@@ -57,7 +57,7 @@
 }
 
 .Footer_footer__3iv-3 {
-    background-image: linear-gradient(34deg, #774b1a, #f5d98f, #9b733f);
+    background-image: linear-gradient(34deg, #0082fd, #da00c3);
     background-color: rgb(236 180 10);
     background-size: 100%;
     position: relative
@@ -255,11 +255,11 @@
     text-decoration: none;
     cursor: pointer;
     text-transform: uppercase;
-    background-image: linear-gradient(34deg, #774b1a, #f5d98f, #9b733f);
+    background-image: linear-gradient(34deg, #0082fd, #da00c3);
     box-shadow: 5px;
     /* box-shadow: 2px 5px #664f24b0; */
     -webkit-box-shadow: 0px 10px 13px -7px #000000, 0px 5px 26px 0px rgb(190 133 40 / 27%);
-    box-shadow: 0px 10px 13px -7px #000000, 0px 5px 26px 0px rgb(255 179 0);
+    box-shadow: 0px 10px 13px -7px #000000, 0px 5px 26px 0px #d900c3;
     transition: #a6a421 .2s ease-in-out
 }
 
@@ -294,7 +294,7 @@
 }
 
 .Button_button__1-zFo:hover {
-    background-color: rgba(219, 173, 25, .6);
+    background-color: #d900c3;
     animation: Button_burn__2uyV4 1s ease-out forwards
 }
 
@@ -310,7 +310,7 @@
     position: absolute;
     width: 100px;
     height: 40px;
-    background: #ffe66e;
+    background: #d900c3;
     border-radius: 100%;
     animation: Button_flare__1s-2s 1s ease-out forwards
 }
@@ -330,13 +330,13 @@
 @keyframes Button_burn__2uyV4 {
     0% {
         color: #ff826e;
-        background: #ffd228;
-        box-shadow: 0 0 5px 0 #ffc200, 0 0 5px 0 rgb(253, 209, 40), 0 0 5px 0 rgba(230, 230, 10, .6)
+        background: #d900c3;
+        box-shadow: 0 0 5px 0 #d900c3, 0 0 5px 0 #d900c3, 0 0 5px 0 #d900c3
     }
     to {
-        color: #000;
-        background: #ffe66e;
-        border: 1px solid #c6b421;
+        color: #ffffff;
+        background: #d900c3;
+        border: 1px solid #d900c3;
         box-shadow: 0 -35px 40px 30px rgba(255, 130, 10, 0), 0 -30px 30px 10px rgba(230, 30, 10, 0), 0 -20px 10px 0 rgba(255, 255, 10, 0)
     }
 }
@@ -964,7 +964,7 @@
 @media (max-width: 768px) {
     .Header_bannerWrapper__3FaCl .Header_banner__3HEai {
         height: auto;
-        bottom: 30%
+        bottom: 45%
     }
 }
 
@@ -1022,7 +1022,7 @@
     font-family: "TL", sans-serif;
     letter-spacing: .3em;
     margin: 5px;
-    color: #000;
+    color: #fff;
 }
 
 .Header_bannerWrapper__3FaCl .Header_bannerButton2__U3nBG {
@@ -2351,11 +2351,11 @@ a:hover {
     line-height: 25px;
     letter-spacing: 2px;
     background-color: #f7b42c;
-    background-image: linear-gradient(34deg, #774b1a, #f5d98f, #9b733f);
+    background-image: linear-gradient(34deg, #0082fd, #da00c3);
     box-shadow: 5px;
     /* box-shadow: 2px 5px #664f24b0; */
     -webkit-box-shadow: 0px 10px 13px -7px #000000, 0px 5px 26px 0px rgb(190 133 40 / 27%);
-    box-shadow: 0px 10px 13px -7px #000000, 0px 5px 26px 0px rgb(255 179 0);
+    box-shadow: 0px 10px 13px -7px #000000, 0px 5px 26px 0px #d900c3;
 }
 
 @media (max-width: 1024px) {
@@ -2399,11 +2399,11 @@ a:hover {
 .Roadmap_stage__BEKU_.Roadmap_oddStage__1Zyve .Roadmap_percentage__15hfd {
     box-sizing: border-box;
     background-color: #f7b42c;
-    background-image: linear-gradient(34deg, #774b1a, #f5d98f, #9b733f);
+    background-image: linear-gradient(34deg, #0082fd, #da00c3);
     box-shadow: 5px;
     /* box-shadow: 2px 5px #664f24b0; */
     -webkit-box-shadow: 0px 10px 13px -7px #000000, 0px 5px 26px 0px rgb(190 133 40 / 27%);
-    box-shadow: 0px 10px 13px -7px #000000, 0px 5px 26px 0px rgb(255 179 0);
+    box-shadow: 0px 10px 13px -7px #000000, 0px 5px 26px 0px #d900c3;
     min-width: 180px
 }
 
