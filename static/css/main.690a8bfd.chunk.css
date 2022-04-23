@@ -2663,7 +2663,7 @@ a:hover {
     font-family: "TL";
     font-size: 2.5rem;
     letter-spacing: 4px;
-    line-height: 58px;
+    line-height: 100px;
     z-index: 1;
     border-radius: 12px;
     text-transform: capitalize;
@@ -3706,7 +3706,8 @@ button {
     left: 0;
     margin-right: auto;
     margin-left: auto;
-    display: block
+    display: block;
+    width: 70%;
 }
 
 .slick-track:after, .slick-track:before {
@@ -4008,4 +4009,11 @@ body {
 }
 .left {
     text-align: left;
+}
+
+
+@media screen and (max-width: 992px) {
+    .slick-track {
+        width: 90%;
+    }
 }
