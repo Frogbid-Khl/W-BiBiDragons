@@ -943,7 +943,7 @@
 
 .Header_bannerWrapper__3FaCl .Header_banner__3HEai {
     margin: auto;
-    width: 400px;
+    width: 550px;
     height: auto;
     position: absolute;
     background-size: 100%;
@@ -957,7 +957,8 @@
 @media (max-width: 1024px) {
     .Header_bannerWrapper__3FaCl .Header_banner__3HEai {
         width: 45%;
-        background-size: 100%
+        background-size: 100%;
+        top: 25%;
     }
 }
 
@@ -978,13 +979,13 @@
     z-index: 1;
     left: 0;
     right: 0;
-    top: 30%
+    top: 35%
 }
 
 @media (max-width: 1024px) {
     .Header_bannerWrapper__3FaCl .Header_overview__3sAoG {
-        width: 45%;
-        top: 35%
+        width: 35%;
+        top: 37%
     }
 }
 
@@ -2663,7 +2664,7 @@ a:hover {
     font-family: "TL";
     font-size: 2.5rem;
     letter-spacing: 4px;
-    line-height: 100px;
+    line-height: 58px;
     z-index: 1;
     border-radius: 12px;
     text-transform: capitalize;
@@ -4012,7 +4013,7 @@ body {
 }
 
 
-@media screen and (max-width: 992px) {
+@media screen and (max-width: 0px) {
     .slick-track {
         width: 90%;
     }
