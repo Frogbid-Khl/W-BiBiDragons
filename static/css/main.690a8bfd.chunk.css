@@ -4013,7 +4013,7 @@ body {
 }
 
 #hidden{
-    visibility: hidden;
+display: none;
 }
 
 @media screen and (max-width: 1024px) {
@@ -4021,11 +4021,11 @@ body {
         width: 90%;
     }
     #hidden{
-        visibility: visible;
+       display: block !important;
     }
 
     #social .col-2{
-        visibility: hidden;
+       display: none;
     }
 }
 
