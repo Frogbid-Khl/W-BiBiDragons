@@ -4020,6 +4020,13 @@ display: none;
     .slick-track {
         width: 90%;
     }
+    #hidden{
+       display: block !important;
+    }
+
+    #social .col-2{
+       display: none;
+    }
 }
 
 .four_image
@@ -4027,17 +4034,10 @@ display: none;
     width: 45% !important;
 }
 
-@media screen and (max-width: 992px){
+@media screen and (max-width: 1024px){
     .four_image
     {
         width: 90% !important;
-    }
-    #hidden{
-        display: block !important;
-    }
-
-    #social .col-2{
-        display: none;
     }
 }
 
