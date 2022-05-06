@@ -2907,10 +2907,22 @@ a:hover {
     list-style-type: none
 }
 
+.ScaryMeter {
+    width: 100%;
+    margin-right: 320px !important;
+    padding: 40px;
+    list-style-type: none
+}
+
 @media (max-width: 768px) {
     .ScaryMeter_benefits__1tQQS {
         width: 90%;
         padding-bottom: 50px
+    }
+
+    .ScaryMeter {
+        width: 90%;
+        padding-bottom: 50px;
     }
 }
 
@@ -2923,7 +2935,27 @@ a:hover {
     color: #fff;
 }
 
+.ScaryMeter li {
+    counter-increment: step-counter 7;
+    margin-bottom: 10px;
+    line-height: 35px;
+    font-size: 1rem;
+    letter-spacing: 1px;
+    color: #fff;
+}
+
 .ScaryMeter_benefits__1tQQS li:before {
+    content: counter(step-counter);
+    margin-right: 5px;
+    font-size: 80%;
+    background-color: #ffb60d;
+    color: #666;
+    font-weight: 700;
+    padding: 5px 8px;
+    border-radius: 3px
+}
+
+.ScaryMeter li:before {
     content: counter(step-counter);
     margin-right: 5px;
     font-size: 80%;
@@ -3320,21 +3352,25 @@ a:hover {
 
 .Team_content__11IlQ {
     display: flex;
-    width: 100%;
+    width: 70%;
     margin: 0 auto;
     flex-wrap: wrap;
     justify-content: center;
     align-items: flex-start
 }
-
+@media only screen and (max-width: 992px) {
+    .Team_content__11IlQ {
+        width: 100%;
+    }
+}
 @media (max-width: 768px) {
     .Team_content__11IlQ {
-        display: block
+        display: block;
     }
 }
 
 .Team_teammates__136va {
-    width: 33%
+    width: 25%
 }
 
 @media (max-width: 768px) {
@@ -3362,10 +3398,14 @@ a:hover {
 
 .Team_name__CLtUB {
     margin-bottom: 20px;
-    font-size: 2.5rem;
+    font-size: 1.5rem;
     line-height: 32px
 }
-
+@media only screen and (max-width: 992px) {
+    .Team_name__CLtUB {
+        font-size: 2.5rem;
+    }
+}
 .Team_name__CLtUB, .Team_title__2R97J {
     font-family: "TL", sans-serif;
     letter-spacing: 4px;
@@ -3868,6 +3908,12 @@ body {
     .ScaryMeter_benefits__1tQQS li{
         font-size:1.8rem;
         line-height: 45px;
+    }
+
+    .ScaryMeter li{
+        font-size:1.8rem;
+        line-height: 45px;
+        margin-right: 187px;
     }
     .Team_description__347ql{
         font-size:1.8rem;
